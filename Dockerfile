@@ -60,5 +60,5 @@ ADD apex* /apex_5.0.2/
 ADD upgrade_apex.sh /upgrade_apex.sh
 
 ADD entrypoint.sh /
-#ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 CMD [""]
